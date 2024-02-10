@@ -1,6 +1,12 @@
 {
 	"name": "directus-extension-key-value-interface",
 	"version": "1.2.0",
+	"description": "A custom interface for Directus that allows you to edit key-value pairs with schema and type inference.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rezo-labs/directus-extension-key-value-interface.git"
+	},
 	"keywords": [
 		"directus",
 		"directus-extension",
