@@ -1,0 +1,7 @@
+node_modules
+dist
+.prettierrc
+CHANGELOG.md
+package-lock.json
+package.json
+tsconfig.json

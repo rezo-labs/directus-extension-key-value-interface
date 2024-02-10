@@ -1,0 +1,7 @@
+**/node_modules/
+**/src/
+.env
+tsconfig.json
+.prettierrc
+.prettierignore
+CHANGELOG.md
