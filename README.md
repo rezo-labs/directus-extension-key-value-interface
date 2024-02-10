@@ -2,6 +2,8 @@
 
 This is a custom interface for Directus that allows you to edit key-value pairs with schema and type inference.
 
+![](./screenshots/screenshot-1.png)
+
 ## Features
 
 - Edit JSON value in a key-value format
@@ -16,8 +18,6 @@ To install this extension, you can use npm:
 ```sh
 npm install directus-extension-key-value-interface
 ```
-
-## Usage
 
 ## Changelog
 
