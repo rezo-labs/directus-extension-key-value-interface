@@ -41,16 +41,7 @@
 <script lang="ts">
 import { PropType, defineComponent, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
-
-type Type = 'string' | 'integer' | 'float' | 'boolean' | 'list' | 'json' | 'unknown';
-
-interface SchemaField {
-	key: string;
-	type: Type;
-	interface: string;
-	note: string;
-	options: string;
-}
+import { SchemaField, Type } from './types';
 
 export default defineComponent({
 	props: {
@@ -174,7 +165,7 @@ export default defineComponent({
 			});
 		}
 
-		function deleteField(key: string) {
+		function deleteField(key: string | number) {
 			if (props.asList) {
 				otherFields.value = otherFields.value
 					.filter((field) => field.key !== key)
